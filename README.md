@@ -5,34 +5,51 @@ Repositório criado para documentar minha evolução no curso de HTML e CSS, ond
 **Aprender HTML do básico ao avançado**
 
 •Aprender CSS e estilização moderna
+
 •Desenvolver páginas estáticas bem estruturadas
+
 •Praticar responsividade
+
 •Criar pequenos projetos para fixação
 
 **Tecnologias utilizadas**
 
 •HTML5
+
 •CSS3
 
 **HTML**
 
 •Estrutura básica
+
 •Tags semânticas
+
 •Listas
+
 •Links
+
 •Imagens
+
 •Formulários
+
 •Tabelas
 
 **CSS**
 
 •Seletores
+
 •Box Model
+
 •Cores
+
 •Tipografia
+
 •Flexbox
+
 •Grid
+
 •Responsividade
+
 •Media Queries
 
 **Minha Evolução**
