@@ -1,0 +1,254 @@
+/* Animations*/
+@keyframes animacao{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+@keyframes animacao2{
+    0% {}
+    20% {background-color: blue;}
+    40% {background-color: green;}
+    60% {background-color: yellow;}
+    80% {background-color: pink;}
+    100% {background-color: black;}
+}
+
+@keyframes animacao3{
+    from {left: 0px;}
+    to {left: 200px; background-color: saddlebrown;}
+}
+
+@keyframes animacao4{
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+@keyframes animacao5{
+  0% {left: 0px;}
+  25% {left: 20px; background-color: blue;}
+  60%   {left: 100px; background-color: orange;}
+  100% {right: 50px; background-color: chartreuse;}
+}
+
+.animation-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 6s;
+}
+
+.animation-div2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation-name: animacao2;
+    animation-duration: 6s;
+    position: relative;
+}
+
+/* animation delay e iteration */
+
+.animation-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: purple; 
+        position: relative;
+        animation-name: animacao3;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+}
+
+
+
+/* Timing function */
+
+.box {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: animacao4;
+    animation-duration: 5s;
+    animation-timing-function: infinite;
+}
+
+#animation-div4 {
+    animation-timing-function: linear;
+}
+
+#animation-div5 {
+    animation-timing-function: ease;
+
+}
+
+#animation-div6 {
+animation-timing-function: ease-in;
+}
+
+#animation-div7 {
+ animation-timing-function: ease-out;
+}
+
+#animation-div8 {
+animation-timing-function: ease-in-out;
+}
+
+/* Shorthand */
+
+#animation-div9 {
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: animacao5 8s ease-out 4s infinite;
+}
+
+/*Transition*/
+.bnt {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+}
+
+.bnt:hover {
+    background-color: #FFF;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.transition {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+/*calc*/
+
+.div-calc{
+height: 250px;
+width: 500px;
+position: relative;
+margin: 20px;
+background-color: #DDD;
+border: 1px solid red;
+}
+
+.innerdiv-calc{
+    width: 10px;
+    height: 50px;
+    position: relative;
+    background-color: red;
+}
+.calc1{
+    width: calc(50% + 50px);
+}
+
+.calc2{
+    width: calc(50% - 50px);
+}
+
+.calc3{
+width: calc(50% * 2);
+margin: 0;
+}
+
+.calc4{
+width: calc(50% / 2);
+}
+
+/* gradient */
+
+.gradient-box{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradient1{
+background-image: linear-gradient(purple, blue); 
+}
+.gradient2{
+background-image: linear-gradient(to right, purple, blue); 
+}
+.gradient3{
+background-image: linear-gradient(to left, red, black); 
+}
+.gradient4{
+background-image: linear-gradient(to top, red, black); 
+}
+.gradient5{
+background-image: linear-gradient(to top right, red, black); 
+}
+.gradient6{
+background-image: linear-gradient(#fff , #ccc #000); 
+}
+
+/*Gradient radial*/
+
+.gradient7{
+background-image: radial-gradient(#3A3042 , #D89D47, #FF784F);
+}
+
+.gradient8{
+background-image: radial-gradient(#3A3042 10% , #D89D47 30%, #FF784F);
+}
+
+.gradient9{
+background-image: radial-gradient(circle, #3A3042, #D89D47, #FF784F);
+}
+
+@font-face {
+    font-family: "Large Grafica";
+    src: url("https://fonts.cdnfonts.com/s/11078/LargeGrafica-Regular.woff") format("woff");
+}
+
+/* Font Face */
+
+.fontface{
+    font-family: "Large Grafica";
+}
+
+/* Media Query */
+
+.mediaquery{
+    width: 200px;
+    height: 1200px;
+    background-color: red;
+}
+
+@media (max-width: 1000px){
+    .mediaquery{
+        background-color: blue;
+    }
+}
+
+/* border-radius */
+
+.div-border{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 20px;
+}
+
+.border-radius1{
+    border-radius: 10px;
+}
+
+.border-radius2{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+}
